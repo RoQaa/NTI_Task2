@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>MacBook Pro 16" - 1</title>
+    <!-- CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--  font-family: "Roboto", sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=BBH+Bogle&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cairo:wght@200..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Meow+Script&family=Noto+Sans+Arabic:wght@100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Home -->
+    <div class="home">
+        <!-- The sidebar -->
+        <div class="sidebar">
+            <div class="top mt-24">
+                <img src="imgs/logo.png" alt="">
+                <ul>
+                    <li href="#" class="list"><i class="fa-regular fa-house"></i></li>
+                    <li href="#" class="list"><i class="fa-regular fa-bell"></i></li>
+                    <li href="#" class="list"><i class="fa-regular fa-calendar"></i></li>
+                    <li href="#" class="list"><i class="fa-solid fa-chart-line"></i></li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <a href="#"><i class="fa-solid fa-gear"></i></a>
+            </div>
+        </div>
+        <!-- opennig sidebar -->
+        <div class="open">
+            <h2 class="font-roboto header "> <i class="fa-solid fa-angle-left"></i> settings</h2>
+            <div class="content">
+                <ul class="font-roboto">
+                    <li class="active"> <i class="fa-solid fa-pencil "></i> Edit profile</li>
+                    <li class="nonactive"> <i class="fa-regular fa-bell "></i> Notification</li>
+                    <li class="nonactive"> <i class="fa-solid fa-lock "></i> Security</li>
+                    <li class="nonactive"> <i class="fa-solid fa-gear "></i> Appearance</li>
+                    <li class="nonactive"> <i class="fa-solid fa-question "></i> Help</li>
+                </ul>
+            </div>
+        </div>
+        <!-- form -->
+        <div class="form-screen px-6">
+            <div class="header">
+                <h2 class="font-roboto">Edit profile</h2>
+                <div class="proImage"></div>
+            </div>
+
+
+            <form action="" method="get" class="font-roboto">
+                <div class="firstAndLast display-flex">
+                    <div class="first_name width-40">
+                        <label for="First_Name" class="display-block">First Name</label>
+                        <input type="text" name="First_Name" id="First_Name" placeholder="Enter First Name"
+                            class="width-100 half-input">
+                    </div>
+
+                    <div class="last_name width-40">
+                        <label for="Last_Name" class="display-block">Last Name</label>
+                        <input type="text" name="Last_Name" id="Last_Name" placeholder="Enter Last Name"
+                            class="width-100 half-input">
+                    </div>
+                </div>
+
+
+                <div class="em">
+                    <label for="email" class="display-block">Email</label>
+                    <input type="email" name="Email" id="email" placeholder="Enter Your Email"
+                        class="width-100 full-input">
+                </div>
+
+                <div class="add">
+                    <label for="Address" class="display-block">Address</label>
+                    <input type="text" name="Address" id="Address" placeholder="Enter Your Address"
+                        class="width-100 full-input">
+                </div>
+                <div class="cont">
+                    <label for="Contact_Number" class="display-block">Contact Number</label>
+                    <input type="phone" name="Contact_Number" id="Contact_Number" placeholder="Enter Your Number"
+                        class="width-100 full-input">
+                </div>
+
+                <div class="city-state display-flex">
+                    <div class="city width-40">
+                        <label for="City" class="display-block">City</label>
+                        <select class="nonactive" name="City" id="City">
+                            <option value="" selected disabled>Select City</option>
+                        </select>
+                    </div>
+                    <div class="state width-40">
+                        <label for="State" class="display-block">State</label>
+                        <select class="nonactive" name="State" id="State">
+                            <option value="" selected disabled>Select State</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="pass">
+                    <label for="password" class="display-block">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter Your Password"
+                        class="width-100 full-input">
+                </div>
+                <div class="save-cancel">
+                    <button type="reset" class="cancel">Cancel</button>
+                    <button type="submit" class="save">Save</button>
+                </div>
+
+            </form>
+
+
+        </div>
+
+        <div class="icons width-20">
+          <p><i class="fa-regular fa-bell"></i></p>
+          <div class="photo"></div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
