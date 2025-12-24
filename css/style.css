@@ -223,16 +223,25 @@ select {
 }
 
 .icons {
-    /* display: flex;
-    justify-content: start; */
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    margin-top: 1%;
 }
 
 .icons .photo {
-    width: 9%;
+    width: 7%;
     aspect-ratio: 1/1;
     border-radius: 50%;
     background-image: url("../imgs/userImage.jpg");
     background-size: cover;
     background-position-y: 30%;
     background-repeat: no-repeat;
+    margin: 0 3%;
+    vertical-align: middle;
+}
+.icons p{
+    padding: 1%;
+    background-color: #D9D9D9;
+    border-radius: 50%;
 }
